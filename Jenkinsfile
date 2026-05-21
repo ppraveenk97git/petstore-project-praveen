@@ -1,7 +1,7 @@
 pipeline{
     agent any
     tools {
-        jdk 'jdk17'
+        jdk 'jdk21'
         maven 'maven3'
     }
     environment {
@@ -15,7 +15,7 @@ pipeline{
         }
         stage ('checkout scm') {
             steps {
-                git 'https://github.com/vijay3639/petstore-project.git'
+                git 'https://github.com/ppraveenk97git/petstore-project-praveen.git'
             }
         }
         stage ('maven compile') {
