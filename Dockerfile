@@ -14,7 +14,7 @@
 #    limitations under the License.
 #
 
-FROM tomcat:9.0-jdk17
+FROM tomcat:8.5-jdk17
 WORKDIR /usr/src/myapp
 
 # Remove default ROOT webapp
